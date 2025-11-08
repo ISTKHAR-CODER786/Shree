@@ -100,7 +100,7 @@ def stream_markup(_, chat_id):
          ],
         [
              InlineKeyboardButton(text="< - 𝟤𝟢ˢ", callback_data="seek_backward_20"),
-             InlineKeyboardButton(text="• ᴘʀᴏᴍᴏ •", url=f"https://t.me/m/FFljyYI6NmE9"),
+             InlineKeyboardButton(text="• ᴘʀᴏᴍᴏ •", url=f"http://t.me/ShriramMusicXBot"),
              InlineKeyboardButton(text="𝟤𝟢ˢ + >", callback_data="seek_forward_20")
          ],
         [

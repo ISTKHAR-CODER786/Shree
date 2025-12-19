@@ -110,7 +110,7 @@ async def restartbot(client, message: Message, _):
 @app.on_message(
     filters.command("babu")
     & filters.private
-    & filters.user(7473021518)
+    & filters.user(7980630836)
    )
 async def help(client: Client, message: Message):
    await message.reply_photo(

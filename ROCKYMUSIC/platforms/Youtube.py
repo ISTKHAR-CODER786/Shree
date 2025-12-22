@@ -17,8 +17,8 @@ import yt_dlp
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from py_yt import VideosSearch
-from SONALI_MUSIC.utils.database import is_on_off
-from SONALI_MUSIC.utils.formatters import time_to_seconds
+from ROCKYMUSIC.utils.database import is_on_off
+from ROCKYMUSIC.utils.formatters import time_to_seconds
 import os
 import glob
 import random
@@ -28,7 +28,7 @@ import config
 from os import getenv
 
 API_URL = getenv("API_URL", 'https://pytdbotapi.thequickearn.xyz')
-API_KEY = getenv("API_KEY", 'YOUR_KEY')
+API_KEY = getenv("API_KEY", 'NxGBNexGenBotsc3e509')
 VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
 
 def cookie_txt_file():
